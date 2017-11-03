@@ -29,10 +29,5 @@ class SearchBar extends Component {
   }
 }
 
-// const mapStateToProps = (state) => {
-//   return ({
-//     state
-//   });
-// };
 
 export default connect(null, {fetchWeather})(SearchBar);
