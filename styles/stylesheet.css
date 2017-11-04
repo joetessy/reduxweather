@@ -11,9 +11,8 @@ body {
 }
 
 table {
-  width: 90%;
+  width: 100%;
   margin-top: 40px;
-  margin-left: 40px;
 }
 
 td {
@@ -24,6 +23,9 @@ td {
 
 th {
   font-size: 20px;
+}
+
+tr {
 }
 
 td, th {
