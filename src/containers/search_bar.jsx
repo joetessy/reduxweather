@@ -21,7 +21,7 @@ class SearchBar extends Component {
         className='search-form'>
         <input value={this.state.term}
           onChange={this.onInputChange.bind(this)}
-          placeholder='Get a 5 day forecast'/>
+          placeholder='Get a 5 day forecast for any US city'/>
         <button type='submit' value={this.state.term}
           className='submit'>Submit</button>
       </form>

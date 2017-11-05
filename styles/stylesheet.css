@@ -22,6 +22,12 @@ h1 {
   margin: 20px;
 }
 
+a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
 td {
   font-size: 20px;
   height: 100px;
@@ -82,6 +88,7 @@ button {
   color: white;
   font-size: 18px;
   height: 50px;
+  font-family: courier;
   width: 15%;
   background-color: #2f004c;
   border-top-right-radius: 4px;
