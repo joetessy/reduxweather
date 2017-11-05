@@ -9,7 +9,7 @@ class SearchBar extends Component {
   }
   handleInputSubmit(event){
     event.preventDefault();
-    this.props.fetchWeather(this.state.term);
+    this.props.fetchWeather(this.state.term).then(() => this.setState({term: ''}));
   }
   onInputChange(event){
     event.preventDefault();
