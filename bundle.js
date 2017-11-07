@@ -2627,7 +2627,7 @@ var _axios2 = _interopRequireDefault(_axios);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var API_KEY = '65399758448a1fec3cbd4e8a6af1972c';
-var ROOT_URL = 'https://api.openweathermap.org/data/2.5/forecast?&appid=' + API_KEY;
+var ROOT_URL = 'http://api.openweathermap.org/data/2.5/forecast?&appid=' + API_KEY;
 
 var FETCH_WEATHER = exports.FETCH_WEATHER = 'FETCH_WEATHER';
 
